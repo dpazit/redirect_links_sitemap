@@ -173,7 +173,10 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
+# Output folder
 output/
+
+# Sitemap URLs folder
 sitemap_urls/
 
 # End of https://www.toptal.com/developers/gitignore/api/python
