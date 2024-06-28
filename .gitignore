@@ -131,8 +131,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-output/
-sitemap_urls/
 
 # Spyder project settings
 .spyderproject
@@ -174,5 +172,8 @@ poetry.toml
 
 # LSP config files
 pyrightconfig.json
+
+output/
+sitemap_urls/
 
 # End of https://www.toptal.com/developers/gitignore/api/python
