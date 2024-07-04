@@ -26,6 +26,8 @@ Dentro do diretório do projeto, crie e ative um ambiente virtual utilizando poe
 ```bash
 poetry install  # Instala as dependências do projeto
 poetry shell    # Ativa o ambiente virtual
+poetry add requests
+poetry add pandas
 ```
 
 ### 4. Executar o Programa

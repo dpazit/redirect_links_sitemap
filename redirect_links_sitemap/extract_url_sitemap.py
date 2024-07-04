@@ -59,7 +59,9 @@ def main(sitemap_index_url, output_folder):
         print(f"URLs extraídas e salvas em {output_file_path}")
 
 def start():
-    sitemap_index_url = "https://www.jove.com/sitemap.xml"  # Substitua pela URL do seu índice de sitemap
+    #sitemap_index_url = "https://www.jove.com/sitemap.xml"  # Substitua pela URL do seu índice de sitemap
+    sitemap_index_url = "https://www.jove.com/sitemap-videos.xml"  # Substitua pela URL do seu índice de sitemap
+    
     output_folder = os.path.join(os.getcwd(), 'sitemap_urls')
     main(sitemap_index_url, output_folder)
 
