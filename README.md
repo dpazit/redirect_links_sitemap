@@ -34,7 +34,7 @@ poetry add pandas
 
 ```bash
 cd redirect_links_sitemap
-poetry run python nome_do_arquivo.py
+poetry run redirect_links_sitemap/python nome_do_arquivo.py
 ```
 
 Modifique o link do site que você quer verificar o sitemap no script: extract_url_sitemap.py
